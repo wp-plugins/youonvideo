@@ -1,0 +1,275 @@
+/* Settings Page */
+
+.youonvideo-wrap label {
+	display: block;
+	width: 120px;
+}
+
+
+/* Add Media */
+
+.youonvideo.media-chooser-wrapper {
+	position: relative;
+	height: 100%;
+}
+
+.youonvideo.media-chooser-wrapper .loading {
+	display: none;
+}
+
+.youonvideo.media-chooser-wrapper.is-loading .loading{
+	width: 100%;
+	height: 100%;
+	display: block;
+
+	position: absolute;
+	top: -46px;
+
+	background-color: #FFF;
+}
+
+.youonvideo.media-chooser-wrapper.is-loading .loading img{
+
+	position: absolute;
+	right: 1%;
+	top: 10%;
+
+}
+
+.youonvideo.media-chooser-wrapper.playlists-not-found,
+.youonvideo.media-chooser-wrapper.videos-not-found{
+	display: block !important;
+}
+
+.youonvideo.media-chooser-wrapper.playlists-not-found .playlists{
+	display: none !important;
+}
+
+.youonvideo.media-chooser-wrapper.playlists-not-found .right-col div.playlists-not-found,
+.youonvideo.media-chooser-wrapper.videos-not-found .right-col div.videos-not-found{
+	display: block !important;
+}
+
+.youonvideo.media-chooser-wrapper .right-col div.playlists-not-found,
+.youonvideo.media-chooser-wrapper .right-col div.videos-not-found {
+	display: none;
+	margin-top: 45px;
+	text-align: center;
+}
+
+.youonvideo.media-chooser-wrapper.playlists-not-found .right-col ul,
+.youonvideo.media-chooser-wrapper.videos-not-found .right-col ul{
+	display: none !important;
+}
+
+.youonvideo.media-chooser-wrapper .left-col,
+.youonvideo.media-chooser-wrapper .right-col {
+	float: left;
+}
+
+.youonvideo.media-chooser-wrapper .left-col{
+	position: absolute;
+	left: 0px;
+	z-index: 1;
+
+	display: inline-block;
+	width: 170px;
+	padding: 20px 20px 0px 20px;
+}
+
+.youonvideo.media-chooser-wrapper .left-col label {
+	float: left;
+	margin-bottom: 5px;
+}
+
+.youonvideo.media-chooser-wrapper .left-col select {
+	width: 150px;
+}
+
+.youonvideo.media-chooser-wrapper .left-col .channels{
+	margin: 0px 0px 15px 0px;
+}
+
+.youonvideo.media-chooser-wrapper .left-col .playlists{
+
+}
+
+.youonvideo.media-chooser-wrapper .right-col{
+	display: inline-block;	
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.youonvideo.media-chooser-wrapper .right-col ul {
+	list-style: none;
+	margin-top: 38px;
+	margin-left: 215px;
+
+
+	padding-bottom: 65px;
+	overflow: hidden;
+}
+
+.youonvideo.media-chooser-wrapper .right-col ul li{
+
+	width: 260px;
+	height: 60px;
+	
+	display: block;
+	float: left !important;
+	margin: 3px;
+}
+
+.youonvideo .profile-item {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 258px;
+  height: 58px;
+  background: #f8f8f8;
+  border: solid 1px #cccccc;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin: 2px 16px 10px 4px;
+  cursor: pointer;
+}
+.youonvideo .profile-item .profile-thumb-container {
+  position: relative;
+  float: left;
+  height: 60px;
+  background: #888;
+}
+.youonvideo .profile-item .profile-thumb-container .profile-thumb-icon {
+  display: block;
+  position: absolute;
+  left: 25px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+}
+.youonvideo .profile-item .profile-thumb-container .profile-thumb-icon .bt-thumb-icon {
+  width: 40px;
+  height: 40px;
+}
+.youonvideo .profile-item .profile-thumb-container .profile-thumb-icon a {
+  display: block;
+}
+.youonvideo .profile-item .profile-thumb-container img {
+  display: block;
+}
+.youonvideo .profile-item .profile-thumb-container img[src=""] {
+  opacity: 0;
+}
+.youonvideo .profile-item .profile-thumb-container .video-duration {
+  position: relative;
+  top: -18px;
+  background: rgba(0, 0, 0, 0.29);
+  color: white;
+  font-size: 11px;
+  height: 14px;
+  padding: 1px 0px 1px 5px;
+}
+.youonvideo .profile-item .profile-thumb-container .playlists-states {
+  position: absolute;
+  bottom: 1px;
+  display: block;
+  background: rgba(0, 0, 0, 0.29);
+  width: 90px;
+  height: 14px;
+}
+.youonvideo .profile-item .profile-thumb-container .playlists-states ul li {
+  display: block !important;
+  float: left;
+  margin: 2px 0px 0px 3px;
+}
+.youonvideo .profile-item .profile-thumb-container .playlists-states ul li.hide-icon {
+  display: none !important;
+}
+.youonvideo .profile-item .profile-count {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 8px;
+  color: #222222;
+}
+.youonvideo .profile-item .profile-title {
+  position: relative;
+  padding: 5px 0px 0px 5px;
+  width: 150px;
+
+  height: 45px;
+  line-height: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.youonvideo .profile-item .profile-title .bt-icon {
+  position: absolute;
+  top: 4px;
+}
+.youonvideo .profile-item .profile-title .text-container {
+  margin-top: 2px;
+  text-indent: 19px;
+}
+.youonvideo .profile-item .profile-title .text-container .text1,
+.youonvideo .profile-item .profile-title .text-container .text2,
+.youonvideo .profile-item .profile-title .text-container .slash {
+  display: inline;
+  margin: 3px 1px 0px 1px;
+  font-size: 11px;
+  white-space: normal;
+  line-height: 14px;
+}
+.youonvideo .profile-item .profile-title .text-container .text1,
+.youonvideo .profile-item .profile-title .text-container .slash {
+  font-weight: bold;
+}
+.youonvideo .profile-item .profile-title .text-container .text2 {
+  font-weight: normal;
+}
+.youonvideo .profile-item .profile-title .ft.ft-round {
+  font-size: 14px;
+  float: left;
+  display: inline-block;
+  width: 0px;
+}
+.youonvideo .profile-item .profile-count {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 8px;
+  color: #222222;
+}
+.youonvideo .profile-item .bt-icon.small.drag {
+  position: absolute;
+  right: -1px;
+  top: 24px;
+  cursor: pointer;
+}
+
+.youonvideo .profile-item:hover,
+.youonvideo .profile-item.selected {
+  -webkit-box-shadow: 0px 0px 10px #f9760b;
+  -moz-box-shadow: 7px 7px 10px #f9760b;
+  box-shadow: 0px 0px 10px #f9760b;
+}
+
+.youonvideo .footer {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+
+	width: 100%;
+	height: 60px;
+	z-index: 100;
+
+	border-top: solid 1px #ddd;
+	background-color: #FFF;
+}
+
+.youonvideo .footer a {
+	float: right;
+	margin-top: 16px !important;
+	margin-right: 20px !important;
+}
